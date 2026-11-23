@@ -1,0 +1,6 @@
+{
+  "name": "VERVE — Vibrant Fashion Commerce",
+  "description": "Contemporary fashion e-commerce experience featuring editorial collections, mega-menu navigation, faceted catalog filtering, product details, wishlist, and seamless bag checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

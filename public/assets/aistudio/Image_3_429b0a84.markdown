@@ -1,0 +1,203 @@
+---
+name: Vibrant Fashion Commerce
+colors:
+  surface: '#fbf8ff'
+  surface-dim: '#d6d8f2'
+  surface-bright: '#fbf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f3f2ff'
+  surface-container: '#ececff'
+  surface-container-high: '#e4e7ff'
+  surface-container-highest: '#dee1fa'
+  on-surface: '#161b2d'
+  on-surface-variant: '#5b4042'
+  inverse-surface: '#2b2f43'
+  inverse-on-surface: '#efefff'
+  outline: '#8f6f72'
+  outline-variant: '#e3bdc0'
+  surface-tint: '#bd0043'
+  primary: '#b90041'
+  on-primary: '#ffffff'
+  primary-container: '#df2457'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#ffb2ba'
+  secondary: '#655d55'
+  on-secondary: '#ffffff'
+  secondary-container: '#e9ded3'
+  on-secondary-container: '#696159'
+  tertiary: '#994211'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#b85928'
+  on-tertiary-container: '#fffbff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffd9dc'
+  primary-fixed-dim: '#ffb2ba'
+  on-primary-fixed: '#400011'
+  on-primary-fixed-variant: '#910031'
+  secondary-fixed: '#ece1d6'
+  secondary-fixed-dim: '#d0c5ba'
+  on-secondary-fixed: '#201b14'
+  on-secondary-fixed-variant: '#4d463e'
+  tertiary-fixed: '#ffdbcc'
+  tertiary-fixed-dim: '#ffb695'
+  on-tertiary-fixed: '#351000'
+  on-tertiary-fixed-variant: '#7b2f00'
+  background: '#fbf8ff'
+  on-background: '#161b2d'
+  surface-variant: '#dee1fa'
+  text-muted: '#535766'
+  surface-subtle: '#f5f5f6'
+  surface-card: '#ffffff'
+  discount-green: '#03a685'
+  star-rating: '#14958f'
+typography:
+  headline-xl:
+    fontFamily: Montserrat
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+  headline-xl-mobile:
+    fontFamily: Montserrat
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 34px
+  headline-lg:
+    fontFamily: Montserrat
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+  headline-lg-mobile:
+    fontFamily: Montserrat
+    fontSize: 22px
+    fontWeight: '700'
+    lineHeight: 28px
+  headline-md:
+    fontFamily: Montserrat
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 26px
+  headline-sm:
+    fontFamily: Montserrat
+    fontSize: 16px
+    fontWeight: '700'
+    lineHeight: 22px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-lg:
+    fontFamily: Montserrat
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 18px
+  label-md:
+    fontFamily: Montserrat
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Montserrat
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 12px
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+  space-2xl: 3rem
+---
+
+## Brand & Style
+
+This design system channels the electric vibrancy, trend-forward speed, and clean editorial precision of modern tier-one fashion e-commerce. Tailored for style-conscious consumers seeking inspiration and immediate gratification, the experience balances runway excitement with uncompromised transactional clarity.
+
+The visual language combines **Clean Contemporary Minimalism** with **High-Energy Retail Accents**. Crisp, luminous white stages give apparel photography breathing room, while hyper-saturated magenta-pink triggers emotional impulses and highlights promotions, discounts, and calls to action. The interface maintains a light, breathable footprint that keeps visual clutter low and browsing stamina high, relying on disciplined typographic hierarchy, stark contrast, and tight structural alignment rather than decorative container bloat.
+
+## Colors
+
+The palette balances energetic commercial signals with rigorous legibility:
+
+- **Primary (`#ff3f6c`)**: The energetic brand signature. Reserved for primary conversion anchors, active states, cart triggers, heart/wishlist actions, and promotional badges.
+- **Secondary (`#fdf1e6`)**: A delicate warm peach tint used for subtle promotional backdrops, coupon highlights, flash deal banners, and high-value alert tags.
+- **Tertiary (`#ff905a`)**: A warm coral/orange used selectively for limited-time offers, urgency counters, and secondary badges.
+- **Neutral (`#282c3f`)**: Deep charcoal serving as the dominant text color, high-contrast buttons, and structural lines, avoiding the harshness of pure black.
+- **Text-Muted (`#535766`)**: Secondary charcoal for subtitles, breadcrumbs, specifications, and strike-through original prices.
+- **Discount Green (`#03a685`)**: Dedicated strictly to positive discount percentages, offer tags, and savings callouts.
+- **Star Rating (`#14958f`)**: Crisp teal-green used for product ratings and verified badge pills.
+
+## Typography
+
+Typography establishes an assertive editorial attitude. Montserrat handles brand anchors, category headers, promotional callouts, and numeric prices, delivering geometric crispness and modern retail impact. Inter governs long-form content, specifications, descriptions, reviews, and utility copy for dense readability.
+
+All headlines and brand titles feature tight tracking and uppercase styling when used as category markers or badges (`label-sm`). Price numbers utilize semi-bold to bold weights to anchor product cards, while strikethrough original prices employ regular weights in the muted text tone.
+
+## Layout & Spacing
+
+The layout is structured around an adaptive 12-column fluid grid on desktop (`margin-desktop: 2.5rem`, `gutter-desktop: 1.5rem`) and a dynamic 2-column or 4-column layout on mobile devices (`margin: 1rem`, `gutter: 1rem`). 
+
+Product card listings rely strictly on a 4 to 5 column density on wide desktop viewports (1280px+) to maximize browse capacity, dropping to 3 columns on tablet and 2 columns on mobile. Spacing rhythm follows 4px and 8px base multiples: micro spacing (`space-xs` and `space-sm`) governs ratings pills, size selectors, and discount badge insets, while macro increments (`space-lg` to `space-2xl`) frame category spotlight carousels and promotional breakout banners.
+
+## Elevation & Depth
+
+This design system uses a flat, razor-sharp editorial look where depth is indicated by subtle outlines and floating overlays rather than heavy shadows:
+
+- **Level 0 (Flat Ground)**: Base canvases use pure white (`#ffffff`) or subtle neutral tint (`#f5f5f6`). Product cards sit flush with no resting shadow, separated by subtle 1px border lines (`rgba(40, 44, 63, 0.08)`).
+- **Level 1 (Card Hover / Selectables)**: On hover, product cards subtly elevate using a clean directional drop shadow: `0 8px 16px rgba(40, 44, 63, 0.12)`, simultaneously revealing interactive size options or wishlist shortcuts.
+- **Level 2 (Sticky Headers & Navigation)**: The top navigation bar, filter bars, and bottom action sheets employ subtle backdrop diffusion (`backdrop-filter: blur(12px)`) over a 95% opaque `#ffffff` fill, paired with a faint bottom border: `0 2px 8px rgba(40, 44, 63, 0.06)`.
+- **Level 3 (Mega-Menus & Modals)**: Flying mega-menus, size charts, and cart sidebars cast a crisp, extended shadow: `0 16px 32px rgba(40, 44, 63, 0.16)`.
+
+## Shapes
+
+The shape system adopts a soft, tailored architecture (`roundedness: 1`). Containers, buttons, cards, and input fields feature 4px corner radii (`0.25rem`), preserving a sharp, premium editorial profile without harsh corners.
+
+Badges, chips, rating tags, and promotional stickers use fully rounded pill shapes to contrast against the structured grid of rectangular image containers. Image ratios maintain strict proportions: 3:4 for vertical fashion apparel and 1:1 for accessories and beauty items.
+
+## Components
+
+### Buttons
+- **Primary Action (Add to Bag, Checkout)**: Solid `#ff3f6c` background, `#ffffff` uppercase `label-lg` text, 4px radius, 48px standard height, subtle 2px active scaling.
+- **Secondary Action (Wishlist, Secondary Nav)**: Ghost border (`1px solid #d4d5d9`), `#282c3f` text, turns `#ff3f6c` border and fill on hover.
+
+### Product Cards
+- **Structure**: 3:4 vertical imagery with crisp top-left discount badges (`#ff3f6c` or `#03a685`), top-right floating circular wishlist icon.
+- **Content Block**: Bold brand name (`label-md`), followed by a 1-line muted product description (`body-sm`).
+- **Price Block**: Stacked inline row displaying selling price in `#282c3f` (`label-lg`), strikethrough MRP in `#535766` (`body-sm`), and calculated discount percentage in `#03a685` (`label-md`).
+- **Rating Chip**: Semi-transparent floating pill (`rgba(255, 255, 255, 0.9)`) on bottom-left of photo showing numeric rating + star glyph in `#14958f`.
+
+### Badges & Chips
+- **Offer Tag**: `#fdf1e6` background with `#ff3f6c` or `#ff905a` bold uppercase text.
+- **Filter Chips**: 32px height, 1px border (`#eaeaec`), `#282c3f` text, switching to `#ff3f6c` text and light pink surface (`#fff1f4`) when selected.
+
+### Input Fields & Controls
+- **Search Bar**: 44px height, light gray background (`#f5f5f6`), integrated magnifying glass icon, bold charcoal text placeholder.
+- **Checkboxes & Radios**: 18px square (checkbox) or circle (radio), 1.5px border in `#535766`, fills `#ff3f6c` with pure white checkmark when checked.
+
+### Mega-Menu Navigation
+- Full-width dropdown with multi-column categorizations (e.g., Topwear, Footwear, Indian & Festive). Bold section titles in `#ff3f6c` and sub-item list links in `#282c3f` changing to brand pink on hover.
